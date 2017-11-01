@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Csv convert</title>
+
+
+    <script type="text/javascript">
+    </script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.1/babel.min.js"></script>
+    <script language="javascript">
+    </script> 
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script><div id="test"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.js"></script>
+    <script>
+    var DATA = [] ;//要輸出的資料
+    var FILE_NAME = '';
+    var WORD_ARY = [];
+    var WORD = '';
+
+    $(function () {
+      $("#upload").bind("click", function () {
+        csv_upload();
+      });
+      $("#download").on("click", function(){
+        csv_download();
+      });
+    });
+
+
+    //上傳文件
+    function csv_upload(){
+      var regex = /(.csv|.txt)$/;
+        if (regex.test($("#fileUpload").val().toLowerCase())) {
+            if (typeof (FileReader) != "undefined") {
+                FILE_NAME = $("#fileUpload").val()+"_convert";
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var table = $("<table />");
+                    var rows = e.target.result.split("\n");
+                    
+                    for (var i = 1; i < rows.length; i++) {
+                        var row = $("<tr />");
+                        var cells = rows[i].split(",");
+                        var _word_ary = convert_csv(cells); //將每段詩中的字切出來
+                        
+                        
+                        for(var x = 0 ; x < ((_word_ary.length * 2)-1) ; x++){
+                          var _word_array = [];
+
+                          //重新整理字
+                          for(var y = 0 ; y < (_word_ary.length) ; y++){
+                            _word_array.push("'" + _word_ary[y] + "'");   
+
+                          }
+                          //console.log("----"+x+":"+(_word_ary.length));
+                          //塞入問號
+                          if(x > (_word_ary.length)){
+                          for(var z = _word_ary.length ; z > (x-_word_ary.length); z--){
+                            _word_array[z] = "'?'";
+                            //console.log(z);
+                          }
+                          }else if(x < (_word_ary.length)){
+                            //console.log("start");
+                          for(var a = 0 ; a < x; a++){
+                            _word_array[a] = "'?'";
+                            //console.log(a);
+                            }
+                          }
+                        
+                          _word_array.push(cells[1]);
+                          //console.log(_word_array);
+                          DATA.push(_word_array);
+                        }
+                        /*
+                        var _word_array = [];
+                        for(var y = 0 ; y < (_word_ary.length) ; y++){
+                            _word_array.push("'" + _word_ary[y] + "'");   
+
+                        }
+                          _word_array.push(cells[1]);
+                          DATA.push(_word_array);
+                          */
+
+                        for (var j = 0; j < cells.length; j++) {
+                            var cell = $("<td />");
+                            cell.html(cells[j]);
+                            row.append(cell);
+                        }
+                        table.append(row);
+                    }
+                    WORD = unique(WORD_ARY);                     
+                    //console.log(DATA);
+                    $("#dvCSV").html('');
+                    $("#dvCSV").append(table);
+                }
+                reader.readAsText($("#fileUpload")[0].files[0]);
+            } else {
+                alert("This browser does not support HTML5.");
+            }
+        } else {
+            alert("Please upload a valid CSV file.");
+        }
+    }
+
+    //轉換文件
+    function convert_csv(array){
+      
+      var _sentence = array[0].split(" ");
+      var _word_ary = [];
+      for(var i = 0;i < _sentence.length ; i ++){
+        var _ary = _sentence[i].split("");
+        for(var a = 0;a < _ary.length ; a ++){
+          var _word = _ary[a];
+          _word_ary.push(_word);
+          WORD_ARY.push(_word);
+          //console.log(_word);
+        }
+      }
+      return _word_ary;
+    }
+    //下載文件
+    function csv_download(){
+      var csv = 'Name,""\n';
+      var _word = '';
+      for(var a =0;a < 28 ;a++){
+        //var text = "@attribute word_"+ a +" {"+ WORD +"}\n";
+        var text = "@attribute word_"+a+" string\n";
+        _word += text; 
+      }
+      var header = "@relation 'train_set-詩籤與評分 blog - data'\n\n" +_word + "@attribute class numeric\n\n\n";
+
+      var title = '@data \n';
+      DATA.forEach(function(row) {  
+        title += row.join(',');
+        title += "\n";
+      });
+        title = header + title;
+      //console.log(csv);
+      var hiddenElement = document.createElement('a');
+      hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(title);
+      hiddenElement.target = '_blank';
+      hiddenElement.download = FILE_NAME + '.arff';
+      hiddenElement.click();
+
+    }
+    //整理陣列
+    function unique(array){
+      var concatArray =[];
+      var _word = '';
+      for(var i =0;i<array.length;i++){
+        if(concatArray.indexOf(array[i])==-1){
+        //indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置,如果要检索的字符串值没有出现，则该方法返回 -1。
+
+          concatArray.push(array[i]); 
+        }
+      }
+      _word = concatArray.toString() + ",?";
+      return _word;
+    }
+
+    </script>
+
+
+  </head>
+  <body>
+  <h1>Uploading a CSV File</h1>
+
+  
+<input type="file" id="fileUpload" accept=".csv"  />
+<input type="button" id="upload" value="Upload" />
+<hr />
+<input type="button" id="download" value="download" />
+
+<div id="dvCSV">
+</div>
+
+
+  </body>
+</html>
