@@ -45,45 +45,8 @@
                         var row = $("<tr />");
                         var cells = rows[i].split(",");
                         var _word_ary = convert_csv(cells); //將每段詩中的字切出來
+                        //console.log(DATA);
                         
-                        
-                        for(var x = 0 ; x < ((_word_ary.length * 2)-1) ; x++){
-                          var _word_array = [];
-
-                          //重新整理字
-                          for(var y = 0 ; y < (_word_ary.length) ; y++){
-                            _word_array.push("'" + _word_ary[y] + "'");   
-
-                          }
-                          //console.log("----"+x+":"+(_word_ary.length));
-                          //塞入問號
-                          if(x > (_word_ary.length)){
-                          for(var z = _word_ary.length ; z > (x-_word_ary.length); z--){
-                            _word_array[z] = "'?'";
-                            //console.log(z);
-                          }
-                          }else if(x < (_word_ary.length)){
-                            //console.log("start");
-                          for(var a = 0 ; a < x; a++){
-                            _word_array[a] = "'?'";
-                            //console.log(a);
-                            }
-                          }
-                        
-                          _word_array.push(cells[1]);
-                          //console.log(_word_array);
-                          DATA.push(_word_array);
-                        }
-                        /*
-                        var _word_array = [];
-                        for(var y = 0 ; y < (_word_ary.length) ; y++){
-                            _word_array.push("'" + _word_ary[y] + "'");   
-
-                        }
-                          _word_array.push(cells[1]);
-                          DATA.push(_word_array);
-                          */
-
                         for (var j = 0; j < cells.length; j++) {
                             var cell = $("<td />");
                             cell.html(cells[j]);
@@ -105,22 +68,56 @@
         }
     }
 
-    //轉換文件
+    //轉換文件將句子拆成陣列並塞入問號
     function convert_csv(array){
       
       var _sentence = array[0].split(" ");
       var _word_ary = [];
-      for(var i = 0;i < _sentence.length ; i ++){
-        var _ary = _sentence[i].split("");
-        for(var a = 0;a < _ary.length ; a ++){
-          var _word = _ary[a];
-          _word_ary.push(_word);
-          WORD_ARY.push(_word);
-          //console.log(_word);
-        }
+      var _word_count = 0;
+      
+      for(var x = 0;x < 3; x++){
+        for(var i = 0;i < _sentence.length ; i ++){
+            var _ary = _sentence[i].split("");
+            for(var a = 0;a < _ary.length ; a ++){
+              var _word = '';
+              if(x == 0){
+                _word = '?';
+              }else if(x == 1){
+                _word = _ary[a];
+                _word_count ++;
+              }else if(x == 2){
+                _word = '?';
+              }
+              //var _word = _ary[a];
+              _word_ary.push(_word);
+              WORD_ARY.push(_word);
+              //console.log(_word);
+            }
+          }
       }
+      //console.log(_word_ary);
+      //console.log(_word_count);
+      get_array(_word_count,_word_ary,array[1]);
       return _word_ary;
     }
+    //從整理好的陣列取的需要的字數
+    function get_array(word_count,convert_ary,raw_class){
+      
+      for(var i = 1; i < (word_count * 2) ; i++){
+        var _array = [];
+        for(var j = i; j < (word_count + i) ; j++){
+          _array.push("'"+convert_ary[j]+"'"); 
+
+        }
+        _array.push(raw_class);
+        //console.log(_array);
+        DATA.push(_array);
+        //DATA.push(raw_class); 
+      }
+      return _array;
+    }
+
+
     //下載文件
     function csv_download(){
       var csv = 'Name,""\n';
