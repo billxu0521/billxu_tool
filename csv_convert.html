@@ -102,7 +102,7 @@
     }
     //從整理好的陣列取的需要的字數
     function get_array(word_count,convert_ary,raw_class){
-      
+      /*
       for(var i = 1; i < (word_count * 2) ; i++){
         var _array = [];
         for(var j = i; j < (word_count + i) ; j++){
@@ -113,7 +113,17 @@
         //console.log(_array);
         DATA.push(_array);
         //DATA.push(raw_class); 
-      }
+      }*/
+
+      //一般的
+      
+      var _array = [];
+        for(var j = 28; j < (word_count + 28) ; j++){
+            _array.push("'"+convert_ary[j]+"'"); 
+          }
+      _array.push(raw_class);
+      DATA.push(_array);
+      
       return _array;
     }
 
@@ -123,8 +133,8 @@
       var csv = 'Name,""\n';
       var _word = '';
       for(var a =0;a < 28 ;a++){
-        //var text = "@attribute word_"+ a +" {"+ WORD +"}\n";
-        var text = "@attribute word_"+a+" string\n";
+        var text = "@attribute word_"+ a +" {"+ WORD +"}\n";
+        //var text = "@attribute word_"+a+" string\n";
         _word += text; 
       }
       var header = "@relation 'train_set-詩籤與評分 blog - data'\n\n" +_word + "@attribute class numeric\n\n\n";
@@ -154,7 +164,7 @@
           concatArray.push(array[i]); 
         }
       }
-      _word = concatArray.toString() + ",?";
+      _word = concatArray.toString();
       return _word;
     }
 
