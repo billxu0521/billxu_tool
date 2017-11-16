@@ -17,11 +17,25 @@
     <script src="https://billxu0521.github.io/GA-project/config/billxu_tool.GA_test.js"></script>
 
 
-    <input class="btn" id="btn_1" type="button" value="按鈕1號">
-    <input class="btn" id="btn_2" type="button" value="按鈕2號">
+    
+
+    <script>
+    
+    $(function ()  {
+      $('.text').on('input',function(){
+      ga_mouse_click_event($('.text').val(),"Click");
+      });
+    });
+
+    </script>
 
     </head>
     <body >
-            
+      <input class="btn" id="btn_1" type="button" value="按鈕1號">
+      <input class="btn" id="btn_2" type="button" value="按鈕2號">
+      <input class="btn" id="btn_3" type="button" value="按鈕3號">
+
+      <input class="text" id="text" type="text" value="">
+
   </body>
 </html>
