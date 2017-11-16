@@ -22,8 +22,11 @@
     <script>
     
     $(function ()  {
-      $('.text').on('input',function(){
-      ga_mouse_click_event($('.text').val(),"Click");
+      $('.click_test').on('input',function(){
+      ga_mouse_click_event($('.click_test').val(),"Click");
+      });
+      $('.hover_test').on('input',function(){
+      ga_mouse_over_event($('.hover_test').val(),"over");
       });
     });
 
@@ -31,11 +34,30 @@
 
     </head>
     <body >
-      <input class="btn" id="btn_1" type="button" value="按鈕1號">
-      <input class="btn" id="btn_2" type="button" value="按鈕2號">
-      <input class="btn" id="btn_3" type="button" value="按鈕3號">
+      <div style="text-align: center;font-size: 60px">毫無反應，只是個練習</div>
+      
+      <div style="margin: auto;width: 50%;text-align: center;padding: 50px 0;">
+      按下:<input class="click_test" id="click_test" type="text" value="">
+      <br>
+      滑動:<input class="hover_test" id="hover_test" type="text" value="">
+      </div>
+      <hr>
+      <div id="img_area">
+        <img class="img" id="img_1" src="https://i.ytimg.com/vi/--oO-HUbbpc/maxresdefault.jpg" alt="長輩圖" style="width:30%;margin: 0 auto;display: block;" >
+        <br>
+        <img class="img" id="img_1" src="http://lh6.ggpht.com/-yrJXdr6njl0/UlkMOU0jvUI/AAAAAAAAFCg/ISB3A4ML2xQ/w1200-h630-p-k-no-nu/1380801_529649577112825_1830624510_n_thumb%25255B3%25255D.jpg?imgmax=800" alt="廢話圖" style="width:30%;margin: 0 auto;display: block;" >
+      </div>
 
-      <input class="text" id="text" type="text" value="">
+      <div style="margin: auto;width: 50%;text-align: center;padding: 50px 0;">
+      <input class="btn" id="btn_1" type="button" value="按鈕1號" style="font-size: 32px;width:200px;height:100px;">
+      <br>
+      <br>
+      <input class="btn" id="btn_2" type="button" value="按鈕2號" style="font-size: 32px;width:200px;height:100px;">
+      <br>
+      <br>
+      <input class="btn" id="btn_3" type="button" value="按鈕3號" style="font-size: 32px;width:200px;height:100px;">     
+      
+      </div>
 
   </body>
 </html>
