@@ -97,8 +97,8 @@ print ('test docs: '+ str(len(test_data)))
 
 
 max_words = 1000
-batch_size = 512
-epochs = 10
+batch_size = 100
+epochs = 5
 
 
 #########
@@ -119,11 +119,12 @@ from keras.layers.recurrent import SimpleRNN, LSTM
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 
 model = Sequential()
-model.add(Embedding(len(word_index) + 1, EMBEDDING_DIM, 
-          input_length=MAX_SEQUENCE_LENGTH))
-model.add(LSTM(200, dropout=0.2, recurrent_dropout=0.2))
+model.add(Embedding(len(word_index) + 1, EMBEDDING_DIM, input_length=MAX_SEQUENCE_LENGTH))
+model.add(LSTM(300, dropout=0.1, recurrent_dropout=0.1))
+#model.add(Embedding(len(word_index) + 1, 256))
+#model.add(LSTM(256, dropout=0.2)) # try using a GRU instead, for fun
 model.add(Dropout(0.2))
-model.add(Dense(labels.shape[1], activation='softmax'))
+model.add(Dense(labels.shape[1], activation='sigmoid'))
 model.summary()
 
 ###################  
@@ -133,7 +134,7 @@ model.summary()
 logger.info('Start training process...')  
 
 
-model.compile(loss='categorical_crossentropy',
+model.compile(loss='binary_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
