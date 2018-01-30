@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ltp-cloud API</title>
+    <script type="text/javascript">
+    </script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.1/babel.min.js"></script>
+    <script language="javascript">
+    </script> 
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+    <script src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js"></script>
+    
+
+    </head>
+    <body >
+            
+  </body>
+
+  <script>
+        var foo = function(data){
+            json_str = JSON.stringify(data);
+            document.getElementsByTagName("body")[0].innerHTML += json_str;
+        };
+
+//https://api.ltp-cloud.com/analysis/?api_key=a1m6v69682PCHN8NprMAgRuYQIRuEpnUoxPdgG4x&text=我是中国人。&pattern=ws&format=plain
+//https://api.ltp-cloud.com/analysis/?api_key%3Da1m6v69682PCHN8NprMAgRuYQIRuEpnUoxPdgG4x%26text%3D%E6%88%91%E6%98%AF%E5%8F%B0%E7%81%A3%E4%BA%BA%E3%80%82%26pattern%3Dws%26format%3Dplain&_=1517294746078
+        window.onload=function(){
+            var base = "http://api.ltp-cloud.com/analysis/?";
+            //http://ltpapi.voicecloud.cn/analysis/
+            var api_key = "a1m6v69682PCHN8NprMAgRuYQIRuEpnUoxPdgG4x";
+            var text = "我是台灣人。";
+            var pattern = "dp";
+            var format = "json";
+            var callback = "foo";
+            var args = "api_key="+api_key+"&text="+text+"&pattern="+pattern+"&format="+format+"&callback="+callback;
+            //var url = base + encodeURIComponent(args);
+            var url = base + encodeURI(args);
+            var script = document.createElement('script');
+            script.setAttribute('src', url);
+            $('head ').append(script);
+        }
+
+    </script>
+</html>
