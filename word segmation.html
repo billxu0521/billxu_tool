@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Csv convert</title>
+
+
+    <script type="text/javascript">
+    </script>  
+    <script language="javascript">
+    </script>         
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.js"></script>
+    <script>
+    var url_1 = ' file://Users/billxu/Downloads/csv_result.csv';
+
+    //網頁執行中
+    $(function ()  {
+      $("#convert").click(function () {
+        textToArray();
+      });
+      $('#upload').click(function(){
+        readResFile();
+      });
+
+      $("#export").click(function () {
+        createCsvFile();
+      });
+
+    });  
+    </script>
+
+
+  </head>
+  <body>
+  
+  <textarea id="textinput" cols="70" rows="40">西南山水，惟川蜀最奇。然去中州萬里，陸有劍閣棧道之險，水有瞿唐 灩澦之虞。跨馬行篁竹間，山高者，累旬日不見其巓際；臨上而俯視，絕壑萬仞，杳莫測其所窮，肝膽為之掉栗。水行，則江石悍利，波惡渦詭，舟</textarea>
+  <br>
+  <input type="button" id="convert" value="convert" />
+  <input type="button" id="export" value="export" />
+  <input type="file" name="filename" id="filename">
+  <button id="upload">upload</button>
+  <div class="csv"></div>
+
+  </body>
+
+    <script>
+    
+
+    /*
+    讀取檔案
+     */
+    function readTextFile(file){
+    }
+
+
+    /*
+    讀取結果檔案
+     */
+    function readResFile(){
+        var csv = $('#filename');
+        var csvFile = csv[0].files[0];
+        var ext = csv.val().split(".").pop().toLowerCase();
+        if($.inArray(ext, ["csv"]) === -1){
+            alert('upload csv');
+            return false;
+        }
+        if(csvFile != undefined){
+            reader = new FileReader();
+            
+            reader.onload = function(e){
+
+                csvResult = e.target.result.split(/\r|\n|\r\n/);
+                //$('.csv').append(csvResult);
+                //console.log(csvResult);
+                checkResScore(csvResult)
+            }
+            reader.readAsText(csvFile);
+        }
+      
+     }
+
+     /*
+     比對資料
+      */
+    function checkResScore(array){
+      var _tp = 0;
+      var _fp = 0;
+      var _fn = 0;
+      var _tn = 0;
+      var _right = 0;
+      var _count = 0;
+      //console.log(array);
+      for(var _key in array){
+        var _ary = array[_key].split(",");
+        var _ans = _ary[5]; //正確答案
+        var _pre = _ary[4]; //預測答案
+        //console.log(array[_key]);
+        if(parseInt(_key) === 0) {
+          continue;
+        }
+        if(array[_key] == '' || _pre == '?' || _key > 8000) continue;
+        //console.log(_pre + "/" + _ans);
+        if(_pre == 'true' && _ans == 'true'){
+          //console.log(_tp);
+          _tp ++;
+          _right++;
+        }else if(_pre == 'true' && _ans == 'flase'){
+          _fn++;
+        }else if(_pre == 'flase' && _ans == 'true'){
+          _fp++;
+        }else if(_pre == 'flase' && _ans == 'flase'){
+          _tn++;
+          _right++;
+        }
+        _count++;
+      }
+        console.log("TP:" + _tp + " , FP:" + _fp +" , FN:"+ _fn +" , TN:" + _tn);
+        var _p = (_tp/(_tp+_fp));
+        var _r = (_tp/(_tp+_fn));
+        var _a = (_right/_count);
+        console.log("Accuracy" + _a);
+        console.log("Precision" + _p);
+        console.log("Recall:" + _r);
+        console.log("F1-score:" + (2*_p*_r)/(_p+_r));
+
+    }
+
+    //取資料
+    function getText(){
+      var _text = $('#textinput').val();
+      _text = _text.replace(/\s+/g, "");
+      _resary = _text.split("");
+      //console.log(_resary);
+      return _resary;
+    }
+
+    //將文字資料轉成陣列
+    function textToArray(array){
+      _ary = getText();
+      var _cleary = [];
+      //console.log(_ary); 
+      /*這邊在將文字放進整理好的陣列*/
+      for(var _key in _resary){
+        var _label = 'flase';
+        var _ans = 'flase';
+
+        //var _label = '?';
+        var _word = _resary[_key];
+        var _next_word = _resary[(parseInt(_key)+1)];
+        //console.log(_key + '/' + _word + '/' + _next_word);
+
+        var _word_check = wordCheck(_word);
+        if(_word_check === false){
+          continue;
+        }
+
+        var _seg_check = wordCheck(_next_word);
+        if(_seg_check === false){
+          _label = 'true';
+          _ans = 'true';
+        }
+
+        if(parseInt(_key) > 5000){
+          _label = '?';
+        }
+        var _word_ary = [_word,_label,_ans];
+
+        _cleary.push(_word_ary);
+      }
+      console.log(_cleary); 
+      var _all_text = "";
+      for(var _a in _cleary){
+        _all_text += _a + "," + _cleary[_a][0] + "," + _cleary[_a][1] + "," + _cleary[_a][2] + "\n"
+      }
+      return _all_text;
+    }
+
+    function wordCheck(word){
+      var punctuation = ["。","，","、","？","：","；","「","」","『","』","《","》","〈","〉","！"," "];
+      for(var _i in punctuation){
+          if(word === punctuation[_i]){
+            return false;
+          }
+        }
+    }
+
+    function createCsvFile(){
+      var rawtext = textToArray();
+      var fileName = "2018.csv";//匯出的檔名
+      var data = rawtext;
+      var header = "sno,word,class,ans_class\n";
+      data = header + data;
+      var blob = new Blob([data], {
+        type : "application/octet-stream"
+      });
+      var href = URL.createObjectURL(blob);
+      var link = document.createElement("a");
+      document.body.appendChild(link);
+      link.href = href;
+      link.download = fileName;
+      link.click();
+    }
+
+    
+
+    </script>
+</html>

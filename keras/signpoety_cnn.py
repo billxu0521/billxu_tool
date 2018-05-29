@@ -94,14 +94,11 @@ x_val = data[p1:p2]
 y_val = labels[p1:p2]
 x_test = data[p2:]
 y_test = labels[p2:]
-print 'train docs: '+str(len(x_train))
-print 'val docs: '+str(len(x_val))
-print 'test docs: '+str(len(x_test))
+print ('train docs: '+str(len(train_data)))
 
-作者：王岳王院长
-鏈接：http://www.jianshu.com/p/e21b570a6b8a
-來源：簡書
-著作權歸作者所有。商業轉載請聯繫作者獲得授權，非商業轉載請註明出處。
+print ('val docs: '+str(len(x_val)))
+print ('test docs: '+str(len(x_test)))
+
 
 
 ###################  

@@ -18,23 +18,30 @@
 
     </head>
     <body >
+        <div class='show_text' id='show_table' style="height: 100%;">
+
             
   </body>
 
   <script>
         var foo = function(data){
             json_str = JSON.stringify(data);
-            document.getElementsByTagName("body")[0].innerHTML += json_str;
+            
+            var obj = JSON.parse(json_str);
+console.log(obj);
+    document.getElementsByTagName("body")[0].innerHTML += json_str;
+
+            //$('.show_text').html(obj);
         };
 
 //https://api.ltp-cloud.com/analysis/?api_key=a1m6v69682PCHN8NprMAgRuYQIRuEpnUoxPdgG4x&text=我是中国人。&pattern=ws&format=plain
 //https://api.ltp-cloud.com/analysis/?api_key%3Da1m6v69682PCHN8NprMAgRuYQIRuEpnUoxPdgG4x%26text%3D%E6%88%91%E6%98%AF%E5%8F%B0%E7%81%A3%E4%BA%BA%E3%80%82%26pattern%3Dws%26format%3Dplain&_=1517294746078
         window.onload=function(){
-            var base = "http://api.ltp-cloud.com/analysis/?";
+            var base = "https://api.ltp-cloud.com/analysis/?";
             //http://ltpapi.voicecloud.cn/analysis/
             var api_key = "a1m6v69682PCHN8NprMAgRuYQIRuEpnUoxPdgG4x";
-            var text = "我是台灣人。";
-            var pattern = "dp";
+            var text = "我是台灣人";
+            var pattern = "srl";
             var format = "json";
             var callback = "foo";
             var args = "api_key="+api_key+"&text="+text+"&pattern="+pattern+"&format="+format+"&callback="+callback;
@@ -42,6 +49,7 @@
             var url = base + encodeURI(args);
             var script = document.createElement('script');
             script.setAttribute('src', url);
+            console.log('send');
             $('head ').append(script);
         }
 
