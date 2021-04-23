@@ -1,570 +1,570 @@
 ﻿#EXTM3U
-#EXTINF：-1，香港衛視
+#EXTINF：-1,香港衛視
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.[m3u8](https://dtvzj.com/tag/m3u8/)
-#EXTINF：-1，香港衛視
+#EXTINF：-1,香港衛視
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=190&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
-#EXTINF：-1，香港衛視
+#EXTINF：-1,香港衛視
 http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
-#EXTINF：-1，香港hks
+#EXTINF：-1,香港hks
 http://cctvtxyh5ca.liveplay.myqcloud.com/cstv/xianggangweishi_2_hd.m3u8
-#EXTINF：-1，鳳凰衛視資訊臺
+#EXTINF：-1,鳳凰衛視資訊臺
 http://112.17.40.197:80/PLTV/88888888/224/3221226491/index.m3u8?icpid=88888888&from=30&hms_devid=1452
-#EXTINF：-1，鳳凰衛視資訊臺
+#EXTINF：-1,鳳凰衛視資訊臺
 http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
-#EXTINF：-1，鳳凰衛視中文臺
+#EXTINF：-1,鳳凰衛視中文臺
 http://112.17.40.139:80/PLTV/88888888/224/3221226368/index.m3u8?icpid=88888888&from=30&hms_devid=1452
-#EXTINF：-1，鳳凰香港臺
+#EXTINF：-1,鳳凰香港臺
 http://192.154.103.75:8080//ZZ_fenghuangxianggang/ZZ_fenghuangxianggang.m3u8
-#EXTINF：-1，TVB翡翠臺
+#EXTINF：-1,TVB翡翠臺
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video
-#EXTINF：-1，無線新聞
+#EXTINF：-1,無線新聞
 http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
-#EXTINF：-1，無線新聞
+#EXTINF：-1,無線新聞
 http://cczylive.chuangwanghulian.cn/live/zy_1531983996445.flv?auth_key=1593500458-57590819-0-3bc1f0bf55895038da448c64a71d09f1
-#EXTINF：-1，有線新聞
+#EXTINF：-1,有線新聞
 https://ottproxy2.mott.tv/livehls/MOB-SCC/03.m3u8
-#EXTINF：-1，有線新聞
+#EXTINF：-1,有線新聞
 https://ottproxy2.mott.tv/livehls/MOB-SCC/02.m3u8
-#EXTINF：-1，有線新聞
+#EXTINF：-1,有線新聞
 https://icable.cdn.utvhk.com/live/4cc64fb362004798b222978935590b2c/1980ba5c365e4f049f99aced1277303c.m3u8
-#EXTINF：-1，有線財經資訊
+#EXTINF：-1,有線財經資訊
 https://icable.cdn.utvhk.com/live/5bcdb730f6be41868ac15afffbb67152/3d27db5ab65942eda36b25374669990d.m3u8
-#EXTINF：-1，有線綜合娛樂
+#EXTINF：-1,有線綜合娛樂
 https://icable.cdn.utvhk.com/live/72ee37b54d524bcb806957577dfdfd72/fe371c746eb94b01b7fb0e70569a2e9f.m3u8
-#EXTINF：-1，無線新聞
+#EXTINF：-1,無線新聞
 http://www.liveviptv.xyz/tv/tvb.php?vid=wxxw
-#EXTINF：-1，無線新聞
+#EXTINF：-1,無線新聞
 http://cczylive.chuangwanghulian.cn/live/zy_1531983996445.flv?auth_key=1593500458-57590819-0-3bc1f0bf55895038da448c64a71d09f1
-#EXTINF：-1，耀才財經
+#EXTINF：-1,耀才財經
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF：-1，明珠臺
+#EXTINF：-1,明珠臺
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
-#EXTINF：-1，亞旅衛視
+#EXTINF：-1,亞旅衛視
 http://hls.jingchangkan.tv/jingchangkan/156722438_0HaM/index.m3u8
-#EXTINF：-1，澳亞衛視
+#EXTINF：-1,澳亞衛視
 http://stream.mastvnet.com/MASTV/sd/live.m3u8
-#EXTINF：-1，蓮花衛視
+#EXTINF：-1,蓮花衛視
 http://live-rtmp.lotustv.duolaibo.cn/lotustv/5562e9e4d409d24c9600075c.m3u8
-#EXTINF：-1，陽光衛視
+#EXTINF：-1,陽光衛視
 https://stream.chinasuntv.com/680k/mid_video_index.m3u8
-#EXTINF：-1，陽光衛視
+#EXTINF：-1,陽光衛視
 http://121.31.30.90:8085/ysten-business/live/yangguangstv/yst.m3u8
-#EXTINF：-1，澳門衛視
+#EXTINF：-1,澳門衛視
 http://stream.mastvnet.com/MSTV/SD/live.m3u8
-#EXTINF：-1，澳門有線CH1
+#EXTINF：-1,澳門有線CH1
 http://202.175.127.77/live/show/ch1/index.m3u8
-#EXTINF：-1，澳門有線互動新聞
+#EXTINF：-1,澳門有線互動新聞
 http://202.175.127.77/live/show/ch2/index.m3u8
-#EXTINF：-1，澳門有線CH3
+#EXTINF：-1,澳門有線CH3
 http://202.175.127.77/live/show/ch3/index.m3u8
-#EXTINF：-1，中華衛視臺灣
+#EXTINF：-1,中華衛視臺灣
 http://pull.leshantangjt.com/live/playlist.m3u8
-#EXTINF：-1，原住民族電視臺
+#EXTINF：-1,原住民族電視臺
 https://bcovlive-a.akamaihd.net/82be3b97f67745058447484cc8a2d015/ap-southeast-1/5817780548001/profile_0/chunklist.m3u8
-#EXTINF：-1，亞美衛視
+#EXTINF：-1,亞美衛視
 http://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
-#EXTINF：-1，中視
+#EXTINF：-1,中視
 http://192.154.103.75:8080//ZZ_zhongshi/ZZ_zhongshi.m3u8
-#EXTINF：-1，中視HD
+#EXTINF：-1,中視HD
 http://104.250.154.42:8080/ZZ_zhongshi/ZZ_zhongshi.m3u8
-#EXTINF：-1，中天綜合
+#EXTINF：-1,中天綜合
 http://192.154.103.75:8080//ZZ_zhongtianzonghe/ZZ_zhongtianzonghe.m3u8
-#EXTINF：-1，中天娛樂
+#EXTINF：-1,中天娛樂
 http://192.154.103.75:8080//ZZ_zhongtianyule/ZZ_zhongtianyule.m3u8
-#EXTINF：-1，八大綜合
+#EXTINF：-1,八大綜合
 http://192.154.103.75:8080//ZZ_zhongtianyazhou/ZZ_zhongtianyazhou.m3u8
-#EXTINF：-1，動物星球
+#EXTINF：-1,動物星球
 http://192.154.103.75:8080//ZZ_dongwuxingqiu/ZZ_dongwuxingqiu.m3u8
-#EXTINF：-1，年代新聞
+#EXTINF：-1,年代新聞
 http://104.250.154.42:8080/ZZ_niandaixinwen/ZZ_niandianxinwen.m3u8
-#EXTINF：-1，星空衛視
+#EXTINF：-1,星空衛視
 http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=233&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1
-#EXTINF：-1，信吉電視
+#EXTINF：-1,信吉電視
 http://220.130.241.203:1935/sjtv/livestream/chunklist_w1048671923.m3u8
-#EXTINF：-1，信吉電視
+#EXTINF：-1,信吉電視
 http://220.130.241.203:1935/sjtv/livestream_360p/playlist.m3u8
-#EXTINF：-1，國家地理
+#EXTINF：-1,國家地理
 http://104.250.154.42:8080/ZZ_hbo/ZZ_hbo.m3u8
-#EXTINF：-1，居家幸福
+#EXTINF：-1,居家幸福
 http://61.58.60.230:9319/live/125.m3u8
-#EXTINF：-1，世紀綜合
+#EXTINF：-1,世紀綜合
 http://61.58.60.230:9319/live/49.m3u8
-#EXTINF：-1，靖天歡樂
+#EXTINF：-1,靖天歡樂
 http://61.58.60.230:9319/live/201.m3u8
-#EXTINF：-1，靖天資訊
+#EXTINF：-1,靖天資訊
 http://61.58.60.230:9319/live/202.m3u8
-#EXTINF：-1，靖天娛樂
+#EXTINF：-1,靖天娛樂
 http://61.58.60.230:9319/live/204.m3u8
-#EXTINF：-1，靖洋戲劇
+#EXTINF：-1,靖洋戲劇
 http://61.58.60.230:9319/live/203.m3u8
-#EXTINF：-1，靖天國際
+#EXTINF：-1,靖天國際
 http://61.58.60.230:9319/live/205.m3u8
-#EXTINF：-1，靖洋卡通
+#EXTINF：-1,靖洋卡通
 http://61.58.60.230:9319/live/206.m3u8
-#EXTINF：-1，靖天卡通
+#EXTINF：-1,靖天卡通
 http://61.58.60.230:9319/live/207.m3u8
-#EXTINF：-1，靖天映畫
+#EXTINF：-1,靖天映畫
 http://61.58.60.230:9319/live/244.m3u8
-#EXTINF：-1，點掌財經
+#EXTINF：-1,點掌財經
 http://cclive2.aniu.tv/live/anzb.m3u8
-#EXTINF：-1，博斯魅力
+#EXTINF：-1,博斯魅力
 http://ms003.happytv.com.tw/live/OcScNdWHvBx5P4w3/index.m3u8?token=BIk2YfurpyjroYsSvl8Ciw&time=1558345786385
-#EXTINF：-1，臺新聞
+#EXTINF：-1,臺新聞
 https://usb.bozztv.com/ssh101/NEXTTVHD/NEXTTVHD/playlist.m3u8
-#EXTINF：-1，臺視財經
+#EXTINF：-1,臺視財經
 https://usb.bozztv.com/ssh101/TTVHD/TTVHD/index.m3u8
-#EXTINF：-1，東森洋片
+#EXTINF：-1,東森洋片
 http://192.154.103.75:8080/ZZ_dongsenyangpian/ZZ_dongsenyangpian.m3u8
-#EXTINF：-1，東森新聞
+#EXTINF：-1,東森新聞
 http://192.154.103.75:8080/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8
-#EXTINF：-1，東森電影
+#EXTINF：-1,東森電影
 http://192.154.103.75:8080/ZZ_dongsendianying/ZZ_dongsendianying.m3u8
-#EXTINF：-1，龍祥時代電影
+#EXTINF：-1,龍祥時代電影
 http://192.154.103.75:8080/ZZ_shidai/ZZ_shidai.m3u8
-#EXTINF：-1，好萊塢電影
+#EXTINF：-1,好萊塢電影
 http://192.154.103.75:8080//ZZ_haolaiwu/ZZ_haolaiwu.m3u8
-#EXTINF：-1，華納電影
+#EXTINF：-1,華納電影
 http://192.154.103.75:8080//ZZ_huanadianying/ZZ_huanadianying.m3u8
-#EXTINF：-1，三立新聞
+#EXTINF：-1,三立新聞
 http://60.199.188.66/HLS/WG_ETTV-N/02.m3u8
-#EXTINF：-1，TVBS新聞
+#EXTINF：-1,TVBS新聞
 http://60.199.188.66/HLS/WG_TVBS-N/01.m3u8
-#EXTINF：-1，大愛二臺
+#EXTINF：-1,大愛二臺
 http://61.58.60.230:9319/live/191.m3u8
-#EXTINF：-1，BBC經典
+#EXTINF：-1,BBC經典
 http://qdntv96789.applinzi.com/96tv.php?633138330
  
-#EXTINF：-1，FOX動作
+#EXTINF：-1,FOX動作
 http://104.250.154.42:8080/ZZ_foxaction/ZZ_foxaction.m3u8
-#EXTINF：-1，HBO 2
+#EXTINF：-1,HBO 2
 http://161.0.157.5/PLTV/88888888/224/3221227026/03.m3u8
-#EXTINF：-1，緯來精采
+#EXTINF：-1,緯來精采
 https://usb.bozztv.com/ssh101/ttvbHD/ttvbHD/index.m3u8
-#EXTINF：-1，博斯魅力
+#EXTINF：-1,博斯魅力
 http://ms003.happytv.com.tw/live/OcScNdWHvBx5P4w3/index.m3u8
-#EXTINF：-1，NHK華語視界
+#EXTINF：-1,NHK華語視界
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8
-#EXTINF：-1，新加坡8頻道
+#EXTINF：-1,新加坡8頻道
 http://d34e90s3s13i7n.cloudfront.net/hls/ch8ctv/master02.m3u8
-#EXTINF：-1，BabyFirst
+#EXTINF：-1,BabyFirst
 http://ms003.happytv.com.tw/live/F9YMztT5DcwWEr1f/index.m3u8
-#EXTINF：-1，C +
+#EXTINF：-1,C +
 https://ottproxy2.mott.tv/livehls:cmi/MOB-U1-NO/01.m3u8
-#EXTINF：-1，香港電臺31
+#EXTINF：-1,香港電臺31
 https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
-#EXTINF：-1，香港電臺32
+#EXTINF：-1,香港電臺32
 https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
-#EXTINF：-1，國家地理
+#EXTINF：-1,國家地理
 http://livecdnh1.tvanywhere.ae/hls/nat_geo/05.m3u8
-#EXTINF：-1，國家地理人士
+#EXTINF：-1,國家地理人士
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_people/05.m3u8
-#EXTINF：-1，國家地理野生
+#EXTINF：-1,國家地理野生
 http://livecdnh1.tvanywhere.ae/hls/nat_geo_wild/05.m3u8
-#EXTINF：-1，全美電視
+#EXTINF：-1,全美電視
 https://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
-#EXTINF：-1，加拿大國家電視臺
+#EXTINF：-1,加拿大國家電視臺
 https://wowzaprodhd84-lh.akamaihd.net/i/4ae6355d_1@505999/index_2150400_av-p.m3u8
-#EXTINF：-1，放鬆吉他音樂
+#EXTINF：-1,放鬆吉他音樂
 https://bozztv.com/36bay2/gin/giniko_guitarrelax_2000kb_36bay2/index.m3u8
-#EXTINF：-1，新聞網（高清）
+#EXTINF：-1,新聞網（高清）
 https://bozztv.com/36bay2/gin-newsnet/index.m3u8
-#EXTINF：-1，FASHIONTV
+#EXTINF：-1,FASHIONTV
 https://bozztv.com/36bay2/gin/giniko_modelinc_2000kb_36bay2/index.m3u8
-#EXTINF：-1，立即開始
+#EXTINF：-1,立即開始
 https://bozztv.com/veset1/720pHi/playlist_720pHi.m3u8
-#EXTINF：-1，5m快速工藝品
+#EXTINF：-1,5m快速工藝品
 https://bozztv.com/36bay2/gin/giniko_5min_1500kb_36bay2/index.m3u8
-#EXTINF：-1，5m生活黑客
+#EXTINF：-1,5m生活黑客
 https://bozztv.com/36bay2/gin/giniko_5minlifehacks_1500kb_36bay2/index.m3u8
-#EXTINF：-1，5m廚房黑客
+#EXTINF：-1,5m廚房黑客
 https://bozztv.com/36bay2/gin/giniko_5minkitchen_1500kb_36bay2/index.m3u8
-#EXTINF：-1，韓國中央電視臺
+#EXTINF：-1,韓國中央電視臺
 https://tv.nknews.org/tvhls/stream.m3u8
-#EXTINF：-1，MBC
+#EXTINF：-1,MBC
 http://211.54.140.36/hdmi
-#EXTINF：-1，KBS 2
+#EXTINF：-1,KBS 2
 http://msl.tvbayoplus.com:9083/live/lmgr218-live1/GJ/qP/GJqPMui6DQrYctmZxQDeig==/live.m3u8
-#EXTINF：-1，SBS
+#EXTINF：-1,SBS
 http://23.237.112.138:9083/live/lmgr218-live1/an/Ec/anEch5GmlJzMh-jcs1OTow==/live.m3u8
-#EXTINF：-1，趕上1
+#EXTINF：-1,趕上1
 http://23.237.112.138:9083/live/lmgr218-live1/Wj/Nz/WjNzluqgVARhAtul5gUKtg==/live.m3u8
-#EXTINF：-1，MBN
+#EXTINF：-1,MBN
 http://23.237.112.138:9083/live/lmgr218-live1/j7/qy/j7qybKo1-oIO_R2EKcmcIA==/live.m3u8
-#EXTINF：-1，MNet
+#EXTINF：-1,MNet
 http://23.237.112.138:9083/live/lmgr218-live1/DD/kh/DDkhewBlWWfGWPVkTkDWNA==/live.m3u8
-#EXTINF：-1，OCN
+#EXTINF：-1,OCN
 http://23.237.112.138:9083/live/lmgr218-live1/GR/13/GR13XDGjlUsD8nZQasCIhw==/live.m3u8
-#EXTINF：-1，YTN
+#EXTINF：-1,YTN
 http://slive.ytn.co.kr/ytn/_definst_/ytn_stream_20190306/playlist.m3u8
-#EXTINF：-1，YTN DMB
+#EXTINF：-1,YTN DMB
 http://slive.ytn.co.kr:1935/dmb/ydlive_20140419_1/playlist.m3u8
-#EXTINF：-1，YTN韓文
+#EXTINF：-1,YTN韓文
 http://ytnmmd.mmdlive.lldns.net/ytnmmd/9484b70302db4786886ae40308bf45a1/chunklist_b2592000.m3u8
-#EXTINF：-1，NHK総合
+#EXTINF：-1,NHK総合
 http://203.162.235.41:16903
-#EXTINF：-1，NHK Eテレ
+#EXTINF：-1,NHK Eテレ
 http://203.162.235.41:16901
-#EXTINF：-1，NHK BSプレミアム
+#EXTINF：-1,NHK BSプレミアム
 http://203.162.235.41:16910
-#EXTINF：-1，TBSテレビ
+#EXTINF：-1,TBSテレビ
 http://203.162.235.41:16907
-#EXTINF：-1，BS TBS
+#EXTINF：-1,BS TBS
 http://203.162.235.41:16913
-#EXTINF：-1，テレビ朝日
+#EXTINF：-1,テレビ朝日
 http://203.162.235.41:16906
-#EXTINF：-1，BS朝日
+#EXTINF：-1,BS朝日
 http://203.162.235.41:16914
-#EXTINF：-1，フジテレビ
+#EXTINF：-1,フジテレビ
 http://203.162.235.41:16904
-#EXTINF：-1，BSフジ
+#EXTINF：-1,BSフジ
 http://203.162.235.41:16911
-#EXTINF：-1，テレビ東京
+#EXTINF：-1,テレビ東京
 http://203.162.235.41:16908
-#EXTINF：-1，BS東京
+#EXTINF：-1,BS東京
 http://203.162.235.41:16915
-#EXTINF：-1，BS日テレ
+#EXTINF：-1,BS日テレ
 http://203.162.235.41:16912
-#EXTINF：-1，日テレ
+#EXTINF：-1,日テレ
 http://203.162.235.41:16905
-#EXTINF：-1，WOWOWシネマ
+#EXTINF：-1,WOWOWシネマ
 http://203.162.235.41:16916
-#EXTINF：-1，群馬テレビ
+#EXTINF：-1,群馬テレビ
 https://movie.mcas.jp/switcher/mcas8_2/chunklist.m3u8
-#EXTINF：-1，東京MX 1
+#EXTINF：-1,東京MX 1
 http://movie.mcas.jp/mcas/mx1_2/chunklist.m3u8
-#EXTINF：-1，東京MX 2
+#EXTINF：-1,東京MX 2
 http://movie.mcas.jp/mcas/mx2_2/chunklist.m3u8
-#EXTINF：-1，MX Live
+#EXTINF：-1,MX Live
 http://movie.mcas.jp/mcas/mx_live_2/master.m3u8
-#EXTINF：-1，ウェザーニュース
+#EXTINF：-1,ウェザーニュース
 http://movie.mcas.jp/mcas/wn1_2/master.m3u8
-#EXTINF：-1，日本Japanet Channel DX
+#EXTINF：-1,日本Japanet Channel DX
 http://bcsecurelivehls-i.akamaihd.net/hls/live/265320/5043843989001/140130JTDX/index_1200.m3u8
-#EXTINF：-1，花花公子蒙古
+#EXTINF：-1,花花公子蒙古
 http://spacetv.in/stream/WUQP6BVK17/56.m3u8
-#EXTINF：-1，韓國Arirang（Opt-1）
+#EXTINF：-1,韓國Arirang（Opt-1）
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF：-1，泰國DDTV
+#EXTINF：-1,泰國DDTV
 http://203.156.63.20:1935/live/ddtv/playlist.m3u8
-#EXTINF：-1，越南ANTVHD
+#EXTINF：-1,越南ANTVHD
 http://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8
-#EXTINF：-1，美國芝加哥WGN9頻道HD
+#EXTINF：-1,美國芝加哥WGN9頻道HD
 http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/master.m3u8
-#EXTINF：-1，美國免費IPTV
+#EXTINF：-1,美國免費IPTV
 http://stream.srg-ssr.ch/m/rsj/mp3_128
-#EXTINF：-1，美國2018年7月12日
+#EXTINF：-1,美國2018年7月12日
 http://stream.srg-ssr.ch/m/rsc_de/mp3_128
-#EXTINF：-1，美國世界新聞
+#EXTINF：-1,美國世界新聞
 http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws_backup
-#EXTINF：-1，美國彭博電視臺歐洲
+#EXTINF：-1,美國彭博電視臺歐洲
 http://cdn-videos.akamaized.net/btv/desktop/akamai/europe/live/primary.m3u8
-#EXTINF：-1，美國CGTN（Opt-1）
+#EXTINF：-1,美國CGTN（Opt-1）
 http://live.cgtn.com/500/prog_index.m3u8
-#EXTINF：-1，美國CGTN（Opt-2）
+#EXTINF：-1,美國CGTN（Opt-2）
 http://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF：-1，美國360北
+#EXTINF：-1,美國360北
 http://wowzaprod3-i.akamaihd.net/hls/live/252236/2147483647_360north_247/playlist.m3u8
-#EXTINF：-1，美國Bowie TV
+#EXTINF：-1,美國Bowie TV
 http://granicusliveus3-a.akamaihd.net/cityofbowie/G0466_001/playlist.m3u8
-#EXTINF：-1，美國布法羅電視臺
+#EXTINF：-1,美國布法羅電視臺
 http://na-all15.secdn.net/pegstream3-live/play/c3e1e4c4-7f11-4a54-8b8f-c590a95b4ade/playlist.m3u8
-#EXTINF：-1，美國CBS新聞（Opt-1）
+#EXTINF：-1,美國CBS新聞（Opt-1）
 http://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
-#EXTINF：-1，美國丹佛8電視臺
+#EXTINF：-1,美國丹佛8電視臺
 http://granicusliveus8-a.akamaihd.net/denver/G0080_002/chunklist.m3u8
-#EXTINF：-1，美國福克斯新聞臺電臺
+#EXTINF：-1,美國福克斯新聞臺電臺
 http://fnurtmp-f.akamaihd.net/i/FNRADIO_1@92141/master.m3u8
-#EXTINF：-1，美國珠寶電視臺
+#EXTINF：-1,美國珠寶電視臺
 http://wowzaprod134-i.akamaihd.net/hls/live/577814/ccddaf02/playlist.m3u8
-#EXTINF：-1，美國Newsmax電視臺
+#EXTINF：-1,美國Newsmax電視臺
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF：-1，美國VTV 6頻道科羅拉多
+#EXTINF：-1,美國VTV 6頻道科羅拉多
 http://hls.ksl.com/t/strata/playlist.m3u8
-#EXTINF：-1，美國天氣國家
+#EXTINF：-1,美國天氣國家
 http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8
-#EXTINF：-1，美國本土CBS 4新聞（印第安納波利斯）
+#EXTINF：-1,美國本土CBS 4新聞（印第安納波利斯）
 http://wttv-lh.akamaihd.net:80/i/WTTVBreaking_1@333494/index_3000_av-b.m3u8
-#EXTINF：-1，美國本土第11頻道新聞WPXI（匹茲堡）
+#EXTINF：-1,美國本土第11頻道新聞WPXI（匹茲堡）
 http://svc-lvanvato-cxtv-wpxi.cmgvideo.com/wpxi/2564k/index.m3u8
-#EXTINF：-1，加拿大CBC新聞（VOD）
+#EXTINF：-1,加拿大CBC新聞（VOD）
 http://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8
-#EXTINF：-1，加拿大購物頻道
+#EXTINF：-1,加拿大購物頻道
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
-#EXTINF：-1，英國MTV
+#EXTINF：-1,英國MTV
 http://unilivemtveu-lh.akamaihd.net/i/mtvno_1@346424/master.m3u8
-#EXTINF：-1，法國CGTN
+#EXTINF：-1,法國CGTN
 http://live.cgtn.com/1000f/prog_index.m3u8
-#EXTINF：-1，法國Francophonie 24
+#EXTINF：-1,法國Francophonie 24
 http://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8
-#EXTINF：-1，德國巴登電視臺
+#EXTINF：-1,德國巴登電視臺
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
-#EXTINF：-1，德國Isar TV
+#EXTINF：-1,德國Isar TV
 http://isar-tv.iptv-playoutcenter.de:1935/isar-tv/isar-tv.stream_1/playlist.m3u8
-#EXTINF：-1，德國MDF.1
+#EXTINF：-1,德國MDF.1
 http://62.113.210.250/medienasa-live/mdf1_high/agustiny.m3u8
-#EXTINF：-1，德國慕尼黑電視臺
+#EXTINF：-1,德國慕尼黑電視臺
 http://muenchentv.iptv-playoutcenter.de:1935/muenchentv/muenchentv.stream_2/playlist.m3u8
-#EXTINF：-1，德國Oberpfalz電視
+#EXTINF：-1,德國Oberpfalz電視
 http://oberpfalztv.iptv-playoutcenter.de:1935/oberpfalztv/oberpfalztv.stream_1/master.m3u8
-#EXTINF：-1，德國Offener Kanal Magdeburg
+#EXTINF：-1,德國Offener Kanal Magdeburg
 http：//iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-magdeburg_high/hasbahca.m3u8？bitrate = 800
-#EXTINF：-1，德國pop10
+#EXTINF：-1,德國pop10
 http：//iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-dessau_high/hasbahca.m3u8？bitrate = 800
-#EXTINF：-1，德國RFO
+#EXTINF：-1,德國RFO
 http://rfo.iptv-playoutcenter.de:1935/rfo/rfo.stream_2/playlist.m3u8
-#EXTINF：-1，德國TVA Ostbayern
+#EXTINF：-1,德國TVA Ostbayern
 http://tvaktuellr.iptv-playoutcenter.de:1935/tvaktuellr/tvaktuellr.stream_1/master.m3u8
-#EXTINF：-1，德國電視上弗蘭肯
+#EXTINF：-1,德國電視上弗蘭肯
 http://tvoberfranken.iptv-playoutcenter.de:1935/tvoberfranken/tvoberfranken.stream_1/playlist.m3u8
-#EXTINF：-1，德國QVC
+#EXTINF：-1,德國QVC
 http://ios-stream.qvc.de/qvc.m3u8
-#EXTINF：-1，義大利m20電視
+#EXTINF：-1,義大利m20電視
 http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
-#EXTINF：-1，義大利Radio Capital TiVu
+#EXTINF：-1,義大利Radio Capital TiVu
 http://capital-live-tv-01-hls.akamai.media.kataweb.it/i/CapitalTv_1@183098/master.m3u8
-#EXTINF：-1，義大利義大利廣播電視臺
+#EXTINF：-1,義大利義大利廣播電視臺
 http://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/index_720x480_av-p.m3u8
-#EXTINF：-1，義大利Rai電影
+#EXTINF：-1,義大利Rai電影
 http://b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/master.m3u8
-#EXTINF：-1，義大利Rai Premium
+#EXTINF：-1,義大利Rai Premium
 http://b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/master.m3u8
-#EXTINF：-1，義大利天空TG24
+#EXTINF：-1,義大利天空TG24
 http://skyianywhere2-i.akamaihd.net:80/hls/live/200275/tg24/playlist.m3u8
-#EXTINF：-1，義大利Sudtirol電視
+#EXTINF：-1,義大利Sudtirol電視
 http://77.72.196.214:8554/live/SuedtirolTV/livestream.m3u8
-#EXTINF：-1，義大利SuperTV
+#EXTINF：-1,義大利SuperTV
 http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
-#EXTINF：-1，義大利TVRS
+#EXTINF：-1,義大利TVRS
 http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8
-#EXTINF：-1，義大利影片佈雷西亞
+#EXTINF：-1,義大利影片佈雷西亞
 http://wms.shared.streamshow.it:1935/videobrescia/videobrescia/live.m3u8
-#EXTINF：-1，義大利影片卡拉布里亞
+#EXTINF：-1,義大利影片卡拉布里亞
 http://wms.shared.streamshow.it:80/videocalabria/videocalabria/playlist.m3u8
-#EXTINF：-1，巴西Rede TV
+#EXTINF：-1,巴西Rede TV
 http://evpp.mm.uol.com.br/redetv1/redetv1/chunklist_w1483436880.m3u8
-#EXTINF：-1，西班牙皇馬足球檯HD
+#EXTINF：-1,西班牙皇馬足球檯HD
 http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/index_3_av-p.m3u8
-#EXTINF：-1，西班牙Calle 13
+#EXTINF：-1,西班牙Calle 13
 http://streaming.enetres.net:80/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/chunklist.m3u8
-#EXTINF：-1，西班牙運河（已更新）
+#EXTINF：-1,西班牙運河（已更新）
 http://congresodirecto-f.akamaihd.net:80/i/congreso6_1@54665/master.m3u8
-#EXTINF：-1，西班牙Navarra TV（Opt-2）
+#EXTINF：-1,西班牙Navarra TV（Opt-2）
 http://nws.nice264.com/SmilLive/getLiveIOS.smil?stream=NTV_livenatvmb&system=NTV&protocol=http_cupertino/playlist.m3u8
-#EXTINF：-1，西班牙RTVCE
+#EXTINF：-1,西班牙RTVCE
 http://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8
-#EXTINF：-1，西班牙TeleSafor
+#EXTINF：-1,西班牙TeleSafor
 http://video.telesafor.com/hls/video_low.m3u8
-#EXTINF：-1，西班牙TeleValencia
+#EXTINF：-1,西班牙TeleValencia
 http://streaming.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/live.smil/.m3u8
-#EXTINF：-1，西班牙加利西亞歐洲電視臺
+#EXTINF：-1,西班牙加利西亞歐洲電視臺
 http://europa-crtvg.flumotion.com/playlist.m3u8
-#EXTINF：-1，俄羅斯阿斯特拉罕24（Opt-2）
+#EXTINF：-1,俄羅斯阿斯特拉罕24（Opt-2）
 http://streaming.astrakhan.ru/astrakhan24/index.m3u8
-#EXTINF：-1，俄羅斯CGTN
+#EXTINF：-1,俄羅斯CGTN
 http://live.cgtn.com/1000r/prog_index.m3u8
-#EXTINF：-1，俄羅斯第一音樂（Opt-3）
+#EXTINF：-1,俄羅斯第一音樂（Opt-3）
 http://rtmp.one.by:1200
-#EXTINF：-1，俄羅斯高清時尚
+#EXTINF：-1,俄羅斯高清時尚
 http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
-#EXTINF：-1，俄羅斯Krasnaja Linija
+#EXTINF：-1,俄羅斯Krasnaja Linija
 http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8
-#EXTINF：-1，俄羅斯大多數影片電視1
+#EXTINF：-1,俄羅斯大多數影片電視1
 http://w4.mostvideo.tv/tv/ch1.m3u8
-#EXTINF：-1，俄羅斯Muz Sojuz
+#EXTINF：-1,俄羅斯Muz Sojuz
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
-#EXTINF：-1，俄羅斯MTVmix烏法
+#EXTINF：-1,俄羅斯MTVmix烏法
 http://81.30.182.82:18092/hls/live.m3u8
-#EXTINF：-1，俄羅斯Nastoyashcheye Vremya
+#EXTINF：-1,俄羅斯Nastoyashcheye Vremya
 http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
-#EXTINF：-1，俄羅斯RBC（Opt-1）
+#EXTINF：-1,俄羅斯RBC（Opt-1）
 http://92.50.128.180/utv/1358/index.m3u8
-#EXTINF：-1，俄羅斯Shanson TV（Opt-1）
+#EXTINF：-1,俄羅斯Shanson TV（Opt-1）
 http://hls.shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8
-#EXTINF：-1，俄羅斯Shanson TV（Opt-2）
+#EXTINF：-1,俄羅斯Shanson TV（Opt-2）
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
-#EXTINF：-1，俄羅斯蒂維科姆·烏蘭·烏傑
+#EXTINF：-1,俄羅斯蒂維科姆·烏蘭·烏傑
 http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
-#EXTINF：-1，俄羅斯Tjumenskoe Vremja
+#EXTINF：-1,俄羅斯Tjumenskoe Vremja
 http://streams.sibinformburo.cdnvideo.ru/sibinformburo/sibinformburo.sdp/playlist.m3u8
-#EXTINF：-1，俄羅斯TopShop
+#EXTINF：-1,俄羅斯TopShop
 http://tv-topshop.netrack.ru/hls/topshop.m3u8
-#EXTINF：-1，俄羅斯TRO聯盟號
+#EXTINF：-1,俄羅斯TRO聯盟號
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF：-1，俄羅斯烏格拉電視臺
+#EXTINF：-1,俄羅斯烏格拉電視臺
 http://live.ugratv.cdnvideo.ru/ugratv/smil:ugrastream1.smil/playlist.m3u8
-#EXTINF：-1，波蘭明星電視臺
+#EXTINF：-1,波蘭明星電視臺
 http://starstv.live.e55-po.insyscd.net/starstvhd.smil/index.m3u8
-#EXTINF：-1，波蘭TV Kujawy（Opt-1）
+#EXTINF：-1,波蘭TV Kujawy（Opt-1）
 http://stream.tvkujawy.pl:8080/live/broadcast.m3u8
-#EXTINF：-1，波蘭電視臺Torun
+#EXTINF：-1,波蘭電視臺Torun
 http://217.173.176.107:1935/live/ngrp:tvk.stream_all/master.m3u8
-#EXTINF：-1，波蘭電視臺Trwam
+#EXTINF：-1,波蘭電視臺Trwam
 http://trwamtv.live.e55-po.insyscd.net/trwamtv.smil/playlist.m3u8
-#EXTINF：-1，紐西蘭3
+#EXTINF：-1,紐西蘭3
 http://mediaworks-i.akamaihd.net/hls/live/220435/3812193411001/3news_live/master.m3u8
-#EXTINF：-1，奧地利KRALHD
+#EXTINF：-1,奧地利KRALHD
 http://bqgsd19q.rocketcdn.com/kralpop_720/chunklist.m3u8
-#EXTINF：-1，冰島RUV
+#EXTINF：-1,冰島RUV
 http://ruvruverl-live.hls.adaptive.level3.net/ruv/ruverl/index/stream4.m3u8
-#EXTINF：-1，丹麥TV2博恩霍爾姆
+#EXTINF：-1,丹麥TV2博恩霍爾姆
 http://live.tv2bornholm.dk/stream/live/chunklist.m3u8
-#EXTINF：-1，丹麥TV2 Fyn
+#EXTINF：-1,丹麥TV2 Fyn
 http://cdn-lt-hls-vod.tv2fyn.dk/fhls/p/1966291/sp/196629100/serveFlavor/entryId/0_yct7rqn3/v/2/flavorId/0_h2wfmuqm/name/a.mp4/index.m3u8
-#EXTINF：-1，丹麥TV2貨車
+#EXTINF：-1,丹麥TV2貨車
 http://cdn-lt-hls-vod.tv2lorry.dk/fhls/p/2045321/sp/204532100/serveFlavor/entryId/0_0u9letdh/v/1/flavorId/0_p5f7q6yf/name/a.mp4/index.m3u8
-#EXTINF：-1，丹麥電視臺
+#EXTINF：-1,丹麥電視臺
 http://cdn-lt-live.tvsyd.dk/dc-1/live/hls/p/1956351/e/0_e9slj9wh/t/ut3_n5VQ1FqzlqMhwbQmJg/index-s32.m3u8
-#EXTINF：-1，挪威10月
+#EXTINF：-1,挪威10月
 http://cdn-kanal10.crossnet.net/kanal10no/live1/playlist.m3u8
-#EXTINF：-1，挪威Stortinget
+#EXTINF：-1,挪威Stortinget
 http://flash0.19333-live0.dna.qbrick.com:1935/19333-live0/push-stortinget_1/playlist.m3u8
-#EXTINF：-1，芬蘭電視1
+#EXTINF：-1,芬蘭電視1
 http://yletvhdliveworld-lh.akamaihd.net/i/yletv1hdworld_1@187592/index_2764_av-p.m3u8
-#EXTINF：-1，芬蘭電視臺2
+#EXTINF：-1,芬蘭電視臺2
 http://yletvhdliveworld-lh.akamaihd.net/i/yletv2hdworld_1@187593/index_2764_av-p.m3u8
-#EXTINF：-1，瑞典坎納爾10
+#EXTINF：-1,瑞典坎納爾10
 http://cdn-kanal10.crossnet.net:1935/kanal10/mp4:mpegts.stream/playlist.m3u8
-#EXTINF：-1，比利時無線電聯絡102.2 FM布魯塞爾
+#EXTINF：-1,比利時無線電聯絡102.2 FM布魯塞爾
 http://contact-lh.akamaihd.net/i/CONTACT_1@321283/master.m3u8
-#EXTINF：-1，比利時RTL-TVI
+#EXTINF：-1,比利時RTL-TVI
 http://rtltvi-lh.akamaihd.net/i/TVI_1@319659/master.m3u8
-#EXTINF：-1，喀麥隆Vision 4
+#EXTINF：-1,喀麥隆Vision 4
 http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8
-#EXTINF：-1，瑞士Tele M1
+#EXTINF：-1,瑞士Tele M1
 http://klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_ljzy3evp/sd/10000/t/nwOKUovT2mwnA8x_KnC4zg/index-s32.m3u8
-#EXTINF：-1，瑞士TeleBarn
+#EXTINF：-1,瑞士TeleBarn
 http://klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_0mc3z57p/t/gaudIWTPWrpJe6yJmHI9vA/index-s32.m3u8
-#EXTINF：-1，長期CGTN
+#EXTINF：-1,長期CGTN
 http://livees.cgtn.com/1000e/prog_index.m3u8
-#EXTINF：-1，鄰近La Mega Mundial
+#EXTINF：-1,鄰近La Mega Mundial
 http://68.235.35.243:1935/lamegamundial/lamegamundial2/playlist.m3u8
-#EXTINF：-1，靜止電視Marti
+#EXTINF：-1,靜止電視Marti
 http://ocb-lh.akamaihd.net/i/ocb_mpls_tvmc1@383606/master.m3u8
-#EXTINF：-1，墨西哥首都21墨西哥城
+#EXTINF：-1,墨西哥首都21墨西哥城
 http://wowzaprod158-i.akamaihd.net/hls/live/595142/a9251b55/playlist.m3u8?set-akamai-hls-revision=5&set-cc-attribute=cc
-#EXTINF：-1，墨西哥Milenio TV
+#EXTINF：-1,墨西哥Milenio TV
 http://bcoveliveios-i.akamaihd.net/hls/live/201661/57828478001/milenio_center_512k@51752.m3u8
-#EXTINF：-1，墨西哥Teleformula（新）
+#EXTINF：-1,墨西哥Teleformula（新）
 http://wms30.tecnoxia.com/radiof/abr_radioftele/playlist.m3u8
-#EXTINF：-1，墨西哥Uno電視（VOD）
+#EXTINF：-1,墨西哥Uno電視（VOD）
 http://ooyalahd2-f.akamaihd.net/i/UnoTV01_delivery@122640/master.m3u8
-#EXTINF：-1，阿根廷運河4波薩達斯
+#EXTINF：-1,阿根廷運河4波薩達斯
 http://184.154.28.210:1935/canal4/canal4/live.m3u8
-#EXTINF：-1，阿根廷運河省聖米格爾
+#EXTINF：-1,阿根廷運河省聖米格爾
 http://www.trimi.com.ar/provincial/streaming/mystream.m3u8
-#EXTINF：-1，阿根廷車庫電視
+#EXTINF：-1,阿根廷車庫電視
 http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
-#EXTINF：-1，阿根廷Radio TV Neuquen
+#EXTINF：-1,阿根廷Radio TV Neuquen
 http://media.neuquen.gov.ar/rtn/television/chunklist_w1330236482.m3u8
-#EXTINF：-1，祕魯Antares TV
+#EXTINF：-1,祕魯Antares TV
 http://173.192.105.252:1935/iptvantares/liveantarestv/playlist.m3u8
-#EXTINF：-1，祕魯蒙特雷哥電視臺
+#EXTINF：-1,祕魯蒙特雷哥電視臺
 http://vs8.live.opencaster.com/20100152275/jcpstream/playlist.m3u8
-#EXTINF：-1，祕魯電視祕魯
+#EXTINF：-1,祕魯電視祕魯
 http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIPE0003&mode=12
-#EXTINF：-1，烏拉圭運河M
+#EXTINF：-1,烏拉圭運河M
 http://wowza.montevideo.com.uy:1936/live/_definst_/mvdstrem/chunklist_w1488231185.m3u8
-#EXTINF：-1，哥斯大黎加Extrema TV
+#EXTINF：-1,哥斯大黎加Extrema TV
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
-#EXTINF：-1，哥斯大黎加Telesur
+#EXTINF：-1,哥斯大黎加Telesur
 http://k3.usastreams.com:1935/telesur/telesur/playlist.m3u8
-#EXTINF：-1，羅馬尼亞克羅姆特電視臺
+#EXTINF：-1,羅馬尼亞克羅姆特電視臺
 http://webmobile.xdev.ro:81/tv7/playlist.m3u8?time=1463062060161
-#EXTINF：-1，羅馬尼亞Iasi TV Life
+#EXTINF：-1,羅馬尼亞Iasi TV Life
 http://webmobile.xdev.ro:81/tv24/playlist.m3u8?time=1464028219168
-#EXTINF：-1，羅馬尼亞Informatia TV
+#EXTINF：-1,羅馬尼亞Informatia TV
 http://webmobile.xdev.ro:81/tv9/playlist.m3u8
-#EXTINF：-1，摩爾多瓦電話M
+#EXTINF：-1,摩爾多瓦電話M
 http://webmobile.xdev.ro:81/tv16/playlist.m3u8
-#EXTINF：-1，塞爾維亞Duga電視
+#EXTINF：-1,塞爾維亞Duga電視
 http://w10.streamgb.com:1935/dugaplus/dugaplus/playlist.m3u8
-#EXTINF：-1，塞爾維亞電視游擊隊
+#EXTINF：-1,塞爾維亞電視游擊隊
 http://212.200.102.3:5000/udp/239.99.99.99:23999
-#EXTINF：-1，塞爾維亞TVKopernikus2
+#EXTINF：-1,塞爾維亞TVKopernikus2
 http://212.200.102.3:5000/rtp/239.0.0.2:5000
-#EXTINF：-1，塞爾維亞TVKopernikus3
+#EXTINF：-1,塞爾維亞TVKopernikus3
 http://212.200.102.3:5000/rtp/239.0.0.3:5000
-#EXTINF：-1，波斯尼亞777 TehnikaTV
+#EXTINF：-1,波斯尼亞777 TehnikaTV
 http://109.123.70.27:1935/tehnikatv777/tehnikatv777/playlist.m3u8
-#EXTINF：-1，馬其頓Sky Folk TV
+#EXTINF：-1,馬其頓Sky Folk TV
 http://skyfolk.mk/live.m3u8
-#EXTINF：-1，烏克蘭100％新聞
+#EXTINF：-1,烏克蘭100％新聞
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
-#EXTINF：-1，烏克蘭
+#EXTINF：-1,烏克蘭
 http://stream.atr.ua/lale//live/index.m3u8
-#EXTINF：-1，烏克蘭M2
+#EXTINF：-1,烏克蘭M2
 http://live.m2.tv/hls/stream.m3u8
-#EXTINF：-1，捷克復古（Opt-1）
+#EXTINF：-1,捷克復古（Opt-1）
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF：-1，靜止電視8
+#EXTINF：-1,靜止電視8
 http://109.74.145.11:1935/tv8/mp4:tv8.stream_360p/chunklist_w974670813.m3u8
-#EXTINF：-1，靜態TVNZ
+#EXTINF：-1,靜態TVNZ
 http://s1.media-planet.sk:80/live/novezamky/BratuMarian.m3u8
-#EXTINF：-1，拉脫維亞Chau TV
+#EXTINF：-1,拉脫維亞Chau TV
 http://video.chaula.tv/hls/live/high/playlist_high.m3u8
-#EXTINF：-1，拉脫維亞RETV
+#EXTINF：-1,拉脫維亞RETV
 http://edge-telia1.tiesraides.lv/live/retv.lv.1_1/playlist_b1825196.m3u8
-#EXTINF：-1，拉脫維亞電視網
+#EXTINF：-1,拉脫維亞電視網
 http://player.tvnet.lv/stream/amlst:61659/chunklist_w1822312625_b528000_pd892000.m3u8
-#EXTINF：-1，希臘福克斯電視臺
+#EXTINF：-1,希臘福克斯電視臺
 http://live.streams.ovh:1935/foxtv/foxtv/playlist.m3u8
-#EXTINF：-1，希臘愛奧尼亞海峽
+#EXTINF：-1,希臘愛奧尼亞海峽
 http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8
-#EXTINF：-1，斯里蘭卡Sigma TV（Greek）
+#EXTINF：-1,斯里蘭卡Sigma TV（Greek）
 http://81.21.47.74/hls/live.m3u8
-#EXTINF：-1，土耳其有線電視
+#EXTINF：-1,土耳其有線電視
 http://stream2.taksimbilisim.com:1935/caytv/bant1/CAYTV.m3u8
-#EXTINF：-1，土耳其CNN特克
+#EXTINF：-1,土耳其CNN特克
 http://media.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8
-#EXTINF：-1，土耳其夢電視
+#EXTINF：-1,土耳其夢電視
 http://live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8
-#EXTINF：-1，土耳其Dreamturk電視
+#EXTINF：-1,土耳其Dreamturk電視
 http://live.netd.com.tr/S1/HLS_LIVE/dreamturktv/1000/prog_index.m3u8
-#EXTINF：-1，土耳其Kanal D
+#EXTINF：-1,土耳其Kanal D
 http://212.224.109.109/S2/HLS_LIVE/kanald/500/prog_index.m3u8
-#EXTINF：-1，土耳其梅克里斯電視臺
+#EXTINF：-1,土耳其梅克里斯電視臺
 http://mecliscanlitv-lh.akamaihd.net:80/i/MECLISTV_1@127503/master.m3u8
-#EXTINF：-1，以色列議會頻道
+#EXTINF：-1,以色列議會頻道
 http://w3.013.gostreaming.tv:1935/Knesset/myStream/playlist.m3u8
-#EXTINF：-1，印度ABP Asmita
+#EXTINF：-1,印度ABP Asmita
 http://abpasmita-lh.akamaihd.net:80/i/abpasmita_1@77821/master.m3u8
-#EXTINF：-1，印度DD新聞
+#EXTINF：-1,印度DD新聞
 http://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8
-#EXTINF：-1，印度瓦薩斯電視臺（Tamil）
+#EXTINF：-1,印度瓦薩斯電視臺（Tamil）
 http://vasanth.live.cdn.bitgravity.com/vasanth/secure/live/feed03?e=0&h=a9be0836bc39f96d0a9a958a659dfc1d&bgsecuredir=1
-#EXTINF：-1，巴基斯坦拉合爾新聞
+#EXTINF：-1,巴基斯坦拉合爾新聞
 http://mlive.lahorenews.tv:1935/lahorelive/lnews_1/playlist.m3u8
-#EXTINF：-1，伊朗PBC Tapesh電視
+#EXTINF：-1,伊朗PBC Tapesh電視
 http://iptv.tapesh.tv/tapesh/playlist.m3u8
-#EXTINF：-1，伊朗朗格朗電視臺
+#EXTINF：-1,伊朗朗格朗電視臺
 http://iptv.rangarang.us/live/playlist.m3u8
-#EXTINF：-1，阿拉伯半島電視新聞網Al Hurra
+#EXTINF：-1,阿拉伯半島電視新聞網Al Hurra
 http://mbnhls-lh.akamaihd.net/i/MBN_1@118619/master.m3u8
-#EXTINF：-1，阿拉伯半島電視新聞網CGTN
+#EXTINF：-1,阿拉伯半島電視新聞網CGTN
 http://live.cgtn.com/1000a/prog_index.m3u8
-#EXTINF：-1，阿拉伯半島電視新聞網Deutsche Welle
+#EXTINF：-1,阿拉伯半島電視新聞網Deutsche Welle
 http://dwstream2-lh.akamaihd.net/i/dwstream2_live@124400/master.m3u8
-#EXTINF：-1，阿拉伯半島電視新聞網TRT
+#EXTINF：-1,阿拉伯半島電視新聞網TRT
 http://trtcanlitv-lh.akamaihd.net/i/TRTARAPCA_1@181945/master.m3u8
-#EXTINF：-1，伊拉克Al Sharqiya
+#EXTINF：-1,伊拉克Al Sharqiya
 http://ns8.indexforce.com:1935/home/mystream/playlist.m3u8
-#EXTINF：-1，伊拉克Sharqiya新聞
+#EXTINF：-1,伊拉克Sharqiya新聞
 http://ns8.indexforce.com:1935/alsharqiyalive/mystream/playlist.m3u8
-#EXTINF：-1，阿拉伯聯合大公國Al Arabiya
+#EXTINF：-1,阿拉伯聯合大公國Al Arabiya
 http://www.elahmad.com/tv/m3u8/arabiya.m3u8?id=aa
-#EXTINF：-1，阿拉伯聯合大公國迪拜一
+#EXTINF：-1,阿拉伯聯合大公國迪拜一
 http://www.elahmad.com/tv/m3u8/dubaitv.m3u8?id=dubaione
-#EXTINF：-1，卡達Al Kass Sports 3
+#EXTINF：-1,卡達Al Kass Sports 3
 http://www.elahmad.com/tv/m3u8/alkass.m3u8?id=alkass3
-#EXTINF：-1，卡達Al Kass Sports 4
+#EXTINF：-1,卡達Al Kass Sports 4
 http://www.elahmad.com/tv/m3u8/alkass.m3u8?id=alkass4
-#EXTINF：-1，摩洛哥Al Aoula國際
+#EXTINF：-1,摩洛哥Al Aoula國際
 http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8
-#EXTINF：-1，摩洛哥Arryadia
+#EXTINF：-1,摩洛哥Arryadia
 http://cdn-hls.globecast.tv/live/ramdisk/arriadia/hls_snrt/index.m3u8
-#EXTINF：-1，摩洛哥Al Maghribia
+#EXTINF：-1,摩洛哥Al Maghribia
 http://cdn-hls.globecast.tv/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
-#EXTINF：-1，迦納電視非洲（迦納）
+#EXTINF：-1,迦納電視非洲（迦納）
 http://africatv.live.net.sa:1935/live/africatv/playlist.m3u8
-#EXTINF：-1，高清時裝臺WFC
+#EXTINF：-1,高清時裝臺WFC
 http://wfc.bonus-tv.ru:80/cdn/wfcint/tracks-v2a1/index.m3u8
